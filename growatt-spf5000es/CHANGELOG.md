@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- Rebuild against upstream spf5000es-server `ac42f7b88c5782eb55f14e23e022eacb0cc6a9d1`,
+  which adds secret-safe DEBUG pipeline diagnostics.
+
 ## 0.1.2
 
 - Rebuild against upstream spf5000es-server `8ffebe20262b1acc665139b388261db971713f5f`,
