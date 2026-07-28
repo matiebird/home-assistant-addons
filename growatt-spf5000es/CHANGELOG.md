@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Rebuild against upstream spf5000es-server `8ffebe20262b1acc665139b388261db971713f5f`,
+  which fixes the MQTT stranded-update race between polling and publish.
+
 ## 0.1.1
 
 - Fix add-on startup: read options with shell `bashio::config` instead of invoking

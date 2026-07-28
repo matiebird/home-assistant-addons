@@ -13,7 +13,7 @@ RENDER_SCRIPT = ADDON_ROOT / "render_config.py"
 BUILD_PAYLOAD_SCRIPT = ADDON_ROOT / "build_render_payload.py"
 CONFIG_YAML = ADDON_ROOT / "config.yaml"
 RUN_SH = ADDON_ROOT / "run.sh"
-SERVER_REVISION = "48d262c847c5e35ebe824fed08dd6fc0b483c6bd"
+SERVER_REVISION = "8ffebe20262b1acc665139b388261db971713f5f"
 
 DEFAULT_OPTIONS = {
     "serial_port": "/dev/ttyUSB0",
@@ -110,7 +110,7 @@ class WrapperMetadataTests(unittest.TestCase):
         text = CONFIG_YAML.read_text(encoding="utf-8")
         self.assertIn('name: Growatt SPF5000ES', text)
         self.assertIn("slug: growatt_spf5000es", text)
-        self.assertIn('version: "0.1.1"', text)
+        self.assertIn('version: "0.1.2"', text)
         self.assertIn("init: false", text)
         self.assertIn("uart: true", text)
         self.assertIn("startup: services", text)

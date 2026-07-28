@@ -3,7 +3,7 @@ description: >-
   Poll a Growatt SPF 5000 ES inverter over Modbus/RS485 and publish telemetry,
   configuration state, and Home Assistant MQTT discovery using the upstream
   spf5000es-server service.
-version: "0.1.1"
+version: "0.1.2"
 slug: growatt_spf5000es
 url: https://github.com/matiebird/home-assistant-addons
 init: false
