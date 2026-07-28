@@ -39,7 +39,7 @@ LABEL \
 RUN apk add --no-cache python3
 
 COPY --from=builder /spf5000es-server /usr/local/bin/spf5000es-server
-COPY run.sh render_config.py /
+COPY run.sh render_config.py build_render_payload.py /
 RUN chmod a+x /run.sh
 
 WORKDIR /data

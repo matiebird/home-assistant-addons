@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+- Fix add-on startup: read options with shell `bashio::config` instead of invoking
+  an external `bashio config` subprocess from Python, which fails under the HA
+  `with-contenv bashio` runtime.
+
 ## 0.1.0
 
 - Initial Home Assistant OS add-on wrapper for upstream
