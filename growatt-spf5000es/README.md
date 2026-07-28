@@ -66,4 +66,4 @@ python3 -m unittest discover -s growatt-spf5000es/tests -v
 ```
 
 The Docker image builds the pinned upstream submodule, runs `go test ./...`, and
-injects build revision `ac42f7b88c5782eb55f14e23e022eacb0cc6a9d1`.
+injects build revision `e7d096172977b0b9e23669c4c68cc218ac2c6a17`.

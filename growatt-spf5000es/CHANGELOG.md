@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.4
+
+- Rebuild against upstream spf5000es-server `e7d096172977b0b9e23669c4c68cc218ac2c6a17`,
+  which fixes Home Assistant writable-settings display with runtime state-aware
+  fail-closed number ranges, FloatChargeVolt/LiProtocolType corrections, and
+  server-side numeric command range validation.
+
 ## 0.1.3
 
 - Rebuild against upstream spf5000es-server `ac42f7b88c5782eb55f14e23e022eacb0cc6a9d1`,
