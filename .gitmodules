@@ -4,3 +4,6 @@
 [submodule "influxdb-udp-relay"]
         path = influxdb-udp-relay
         url = https://github.com/fl4p/influxdb-udp-relay
+[submodule "growatt-spf5000es/server"]
+	path = growatt-spf5000es/server
+	url = https://github.com/matiebird/spf5000es-server.git
